@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Serial.h
+stdio.h
+-
+windows.h
+-
+conio.h
+-
+termios.h
+-
+unistd.h
+-
+fcntl.h
+-
+string.h
+-
+
+/Users/dyc/Projects/CLionProjects/SLAM/src/Serial.cpp
+Serial.h
+/Users/dyc/Projects/CLionProjects/SLAM/src/Serial.h
+cerrno
+/Users/dyc/Projects/CLionProjects/SLAM/src/cerrno
+
