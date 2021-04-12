@@ -97,7 +97,7 @@ int serial_configure(int SerialHandle, int baudrate, int parity, int stopBits, i
 
     serial.c_cc[VMIN] = 0;
     serial.c_cc[VTIME] = 0;
-    #define  B1000000 0010010
+
     switch (baudrate)
     {
         case 50: serial.c_cflag |= B50; break;
@@ -118,7 +118,6 @@ int serial_configure(int SerialHandle, int baudrate, int parity, int stopBits, i
         case 57600: serial.c_cflag |= B57600; break;
         case 115200: serial.c_cflag |= B115200; break;
         case 230400: serial.c_cflag |= B230400; break;
-        case 1000000: serial.c_cflag |= B1000000; break;
         default:return -1; //invalid Baudrate
     }
 

@@ -5,7 +5,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
+#ifdef __APPLE__
 #include <sys/malloc.h>
+#else
+#include <malloc.h>
+#endif
 #include "matops.h"
 
 void initdmat(dmat *dmatp, int nrl, int nrh, int ncl, int nch);
