@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <ctime>
+#include <iomanip>
 #include "HgDataParser.h"
 #include "Serial.h"
 #include "filter_function.h"

@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#include <sys/malloc.h>
+#include <malloc.h>
 #include "matops.h"
 
 void initdmat(dmat *dmatp, int nrl, int nrh, int ncl, int nch);

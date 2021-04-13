@@ -5,20 +5,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/dyc/Projects/CLionProjects/SLAM/src/matops.c" "/Users/dyc/Projects/CLionProjects/SLAM/cmake-build-debug/CMakeFiles/SLAM.dir/src/matops.c.o"
+  "/home/dyc/Documents/slam/src/matops.c" "/home/dyc/Documents/slam/cmake-build-debug/CMakeFiles/SLAM.dir/src/matops.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   ".././include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dyc/Projects/CLionProjects/SLAM/src/HgDataParser.cpp" "/Users/dyc/Projects/CLionProjects/SLAM/cmake-build-debug/CMakeFiles/SLAM.dir/src/HgDataParser.cpp.o"
-  "/Users/dyc/Projects/CLionProjects/SLAM/src/Serial.cpp" "/Users/dyc/Projects/CLionProjects/SLAM/cmake-build-debug/CMakeFiles/SLAM.dir/src/Serial.cpp.o"
-  "/Users/dyc/Projects/CLionProjects/SLAM/src/main.cpp" "/Users/dyc/Projects/CLionProjects/SLAM/cmake-build-debug/CMakeFiles/SLAM.dir/src/main.cpp.o"
+  "/home/dyc/Documents/slam/src/HgDataParser.cpp" "/home/dyc/Documents/slam/cmake-build-debug/CMakeFiles/SLAM.dir/src/HgDataParser.cpp.o"
+  "/home/dyc/Documents/slam/src/Serial.cpp" "/home/dyc/Documents/slam/cmake-build-debug/CMakeFiles/SLAM.dir/src/Serial.cpp.o"
+  "/home/dyc/Documents/slam/src/main.cpp" "/home/dyc/Documents/slam/cmake-build-debug/CMakeFiles/SLAM.dir/src/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

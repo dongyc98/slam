@@ -6,3 +6,17 @@
 
 #IncludeRegexTransform: 
 
+../include/matops.h
+
+/home/dyc/Documents/slam/src/matops.c
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+malloc.h
+-
+matops.h
+/home/dyc/Documents/slam/src/matops.h
+
